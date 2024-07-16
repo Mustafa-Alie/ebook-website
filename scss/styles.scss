@@ -1,0 +1,25 @@
+.navbar .btn-outline-light:hover {
+    color: var(--bs-dark)
+}
+
+.header {
+    background: url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-custom {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hover-secondary:hover .fa-3x {
+    color: #10bcee !important;
+}
+
+.hover-secondary:hover {
+    color: #10bcee !important;
+}
